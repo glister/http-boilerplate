@@ -16,7 +16,7 @@ This respository (repo) contains a basic boilerplate of a website. It includes b
 
 ## Server
 - `index.js` is the entry point for the server, it uses the `express` package to create a webserver and configures a few basic things like how to return the client files (index.html etc), when to send a 404 and what code is going to handle `/api` web requests. You shouldn't need to change much in here.
-- `api.js` is the main file for the webserver, this file creates a router which handles every web request made to `/api`, e.g. `GET /api/hello`, `POST /api/data`, `DELETE /api/file/id` etc. The `api.js` has a couple examples for how to wire a particular HTTP request to a handler - a function which performs the process for that request e.g. [make a web request to openai vision API ](https://platform.openai.com/docs/guides/vision)
+- `api.js` is the main file for the webserver, this file creates a router which handles every web request made to `/api`, e.g. `GET /api/hello`, `POST /api/data`, `DELETE /api/file/id` etc. The `api.js` has a couple examples for how to wire a particular HTTP request to a handler - a function which performs the process for that request e.g. making a [make a web request to openai vision API ](https://platform.openai.com/docs/guides/vision)
 
 ## Client
 - `index.html` this is your main html file that the user receives when navigating to http://localhost:4000/ - it includes the styles.css and main.js files.
